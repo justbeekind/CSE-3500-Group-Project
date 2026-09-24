@@ -1,0 +1,60 @@
+# JetBrains (IntelliJ, PyCharm, CLion, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# NetBeans
+nbproject/private/
+nbactions.xml
+nb-configuration.xml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+Session.vim
+.netrwhist
+
+# Emacs
+\#*\#
+.\#*
+*.elc
+.projectile
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Zed / Fleet / Cursor
+.zed/
+.fleet/
+.cursor/
+
+# OS files
+.DS_Store
+Thumbs.db
