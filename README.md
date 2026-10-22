@@ -53,3 +53,16 @@ The Aho–Corasick algorithm finds multiple patterns in a larger body of text. I
 | **Week 8:**<br>11/14–11/20 | Finalize the report and code. Do a final round of testing and double-check every benchmark result. | Proofread the report, polish the graphs and tables, finish contribution statements and evaluations, and submit. Final submission due 11/20.              |
 | **Presentation Prep:**<br>11/21–12/4 | Make slides that explain the problem, the algorithm, failure links, complexity, and our results. | Split speaking roles and build a simple visual demo of the trie and failure links in action.                                                             |
 | **Final Presentation:**<br>12/5–12/10 | Rehearse the full 4–5 minute presentation and make last adjustments. | Make sure everyone understands the algorithm well enough to answer questions. Presentations are on 12/8 and 12/10.                                       |
+
+---
+
+## Testing
+
+python3 -m unittest -v # all tests
+python3 -m unittest test_aho_corasick -v # just this file
+python3 -m unittest test_aho_corasick.TestAhoCorasick.test_failure_link # one test
+
+### Run this one:
+python3 test_aho_corasick.py # <- this file
+
+---
